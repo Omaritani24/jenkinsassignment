@@ -7,7 +7,7 @@ pollSCM('H/2 * * * *')
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/mhmdsh24/docker_assignment'
+git branch: 'main', url: 'https://github.com/Omaritani24/jenkinsassignment'
 }
 }
 stage('Build in Minikube Docker') {
